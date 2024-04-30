@@ -1,5 +1,6 @@
 import React from 'react'
-import SecondClass from './Components/GetApi/SecondClass'
+// import SecondClass from './Components/GetApi/SecondClass'
+import First_Api from './Components/PostApi/First_Api'
 // import Firstclass from './Components/GetApi/Firstclass'
 // import Home from './Components/Model/Home'
 // import Nav from './Components/Model/Nav'
@@ -154,13 +155,14 @@ const App = () => {
         {/* <Creatcontext/> */}
 
         {/* API */}
-
+        {/* Post Api */}
+        <First_Api/>
         {/* <Cardmap/> */}
 
 
        {/* NewApi 🥰 */}
        {/* <Firstclass/> */}
-       <SecondClass/>
+       {/* <SecondClass/> */}
 
 
     </div>
